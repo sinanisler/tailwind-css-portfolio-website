@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS ❤</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+
+    <header class="bg-violet-600 text-white p-4">
+        <div class="container max-w-screen-xl mx-auto flex items-center justify-between">
+            <div>
+                <h1 class="text-2xl font-bold">Your Name</h1>
+            </div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#home" class="hover:text-rose-300">Home</a></li>
+                    <li><a href="#portfolio" class="hover:text-rose-300">Portfolio</a></li>
+                    <li><a href="#contact" class="hover:text-rose-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+
+    <section class="bg-gray-100 py-16 text-center" id="home">
+        <h2 class="text-4xl font-bold mb-4">Hello, I'm Your Father</h2>
+        <p class="text-lg text-gray-600 max-w-xl mx-auto">Short bio or introduction about your father.</p>
+    </section>
+    
+
+
+    <section class="max-w-screen-xl mx-auto container mx-auto py-16" id="portfolio">
+        <h2 class="text-4xl font-bold mb-8 text-center">My Works</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="portfolio-item">
+                <img src="https://placehold.co/400x300" alt="Project Name" class="w-full h-64 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Project Name</h3>
+                <p class="text-gray-600">Short project description.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://placehold.co/400x300?text=Project2" alt="Project Name" class="w-full h-64 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Project Name</h3>
+                <p class="text-gray-600">Short project description.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://placehold.co/400x300?text=Project3" alt="Project Name" class="w-full h-64 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Project Name</h3>
+                <p class="text-gray-600">Short project description.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://placehold.co/400x300" alt="Project Name" class="w-full h-64 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Project Name</h3>
+                <p class="text-gray-600">Short project description.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://placehold.co/400x300?text=Project2" alt="Project Name" class="w-full h-64 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Project Name</h3>
+                <p class="text-gray-600">Short project description.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="https://placehold.co/400x300?text=Project3" alt="Project Name" class="w-full h-64 object-cover mb-4">
+                <h3 class="text-xl font-semibold">Project Name</h3>
+                <p class="text-gray-600">Short project description.</p>
+            </div>
+        </div>
+    </section>
+        
+
+    <section class="bg-violet-600 py-16" id="contact">
+        <div class="container mx-auto max-w-xl">
+            <h2 class="text-4xl font-bold mb-8 text-center">Get in Touch</h2>
+            <form>
+                <div class="mb-4">
+                    <input type="text" placeholder="Your Name" class="w-full p-3 border rounded">
+                </div>
+                <div class="mb-4">
+                    <input type="email" placeholder="Your Email" class="w-full p-3 border rounded">
+                </div>
+                <div class="mb-4">
+                    <textarea rows="4" placeholder="Your Message" class="w-full p-3 border rounded"></textarea>
+                </div>
+                <button type="submit" class="bg-rose-600 text-white p-3 rounded hover:bg-rose-500">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+
+
+
+
+
+
+</body>
+</html>
